@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+    <style>
+     *{
+    margin: 0;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color:black;
+}
+
+.navbar-container{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+.logo{
+    font-size: 27px;
+    color: rgb(30, 173, 230);
+}
+
+.menu-container{
+    flex: 6;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item{
+    margin-right: 30px;
+    color: white;
+}
+
+.menu-list-item.active{
+    font-weight: bolder;
+}
+
+.container{
+    background-color:rgb(15, 15, 15);
+    min-height: 1100px;
+
+}
+
+.content-container{ 
+  margin-left: 0px;  
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.content ul li{
+    position: relative;
+}
+
+.content ul li a{
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.text2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text2 h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.content1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content1 ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.content1 ul li{
+    position: relative;
+}
+
+.content1 ul li a{
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.textover{
+    font-family: 'Raleway', sans-serif
+}   
+    </style>
+    </head>
+<body>
+    <div class="nav">
+    <div class="navbar-container">
+    <div class="logo-container"><h1 class="logo">Summer Cinema</h1></div>
+    <div class="menu-container">
+        <ul class="menu-list">
+            <li><a href="index.html"  class="menu-list-item active">Home</a></li>
+            <li><a href="NowShowing.html" class="menu-list-item">Now Showing</a></li>
+            <li><a href="ComingSoon.html" class="menu-list-item">Coming Soon</a></li>
+            <li class="menu-list-item active">Categories:</li>
+            <li><a href="Action.html" class="menu-list-item">Action</a></li>
+            <li><a href="Adventure.html" class="menu-list-item">Adventure</a></li>
+        </ul>
+    </div>    
+    </div>
+</div>
+<div class="container">
+        </div>
+</div>
+
+<div class="text2">
+    <h1>Action</h1>
+</div>
+
+<div class="content1">
+    <ul>
+        <figure class="textover">
+                <li><a href="#"><img src="action/everythingeverywhereallatonce.jfif" width="300" height="400">
+                <figcaption>Everything Everywhere All At Once</figcaption></a></li>
+                </figure>
+        <figure class="textover">
+                <li><a href="#"><img src="action/memory.jfif" width="300" height="400">
+                <figcaption>Memory</figcaption></a></li>
+                </figure>
+        <figure class="textover">
+                <li><a href="#"><img src="action/morbius.jfif" width="300" height="400">
+                <figcaption>Morbius</figcaption></a></li>
+                </figure>
+    </ul>
+</div>    
+        
+<div class="content">
+    <ul>       
+                <figure class="textover">
+                <li><a href="#"><img src="action/topgun.jfif" width="300" height="400">
+                <figcaption>Top Gun</figcaption></a></li>
+                </figure>
+        <figure class="textover">
+                <li><a href="#"><img src="action/uncharted.jfif" width="300" height="400">
+                <figcaption>Uncharted</figcaption></a></li>
+                </figure> 
+        <figure class="textover">
+                <li><a href="#"><img src="comingsoon/topgun.jfif" width="300" height="400">
+                <figcaption>Top Gun</figcaption></a></li>
+                </figure>
+
+    </ul>
+</div>
+</body>
+</html>
